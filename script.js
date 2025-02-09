@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('.hearts').appendChild(heart);
         setTimeout(() => {
             heart.remove();
-        }, 500);
+        }, 10000);
     }
 
     setInterval(createHeart, 300);
