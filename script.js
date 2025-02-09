@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Crear corazones que caen
     function createHeart() {
-        const heart = document.createElement('div');
+        const heart = document.createElement('body');
         heart.classList.add('heart');
         heart.innerHTML = '❤️';
         heart.style.left = Math.random() * 100 + 'vw';
