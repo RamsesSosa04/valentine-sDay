@@ -29,8 +29,8 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('.hearts').appendChild(heart);
         setTimeout(() => {
             heart.remove();
-        }, 10000);
+        }, 5000);
     }
 
-    setInterval(createHeart, 300);
+    setInterval(createHeart, 250);
 });
